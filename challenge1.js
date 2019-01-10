@@ -9,4 +9,8 @@ function palindrome(str) {
     }
     return true;
    }
-   palindrome("A man, a plan, a canal. Panama");
+   palindrome("level");
+
+   //console.log(isPalindrome(prompt("Enter your word")))
+
+
