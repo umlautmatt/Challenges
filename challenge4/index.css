@@ -1,0 +1,12 @@
+.wrapper {
+    text-align: center;
+    border-style: solid; 
+    border-width: 2px;
+}
+
+#passConfirm {
+    text-align: left
+}
+.controls {
+    display: inline-block;
+}
