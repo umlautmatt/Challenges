@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="challenge5.css" rel="stylesheet">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1><center>Calculator</center></h1>
+
+<div class="wrapper">
+    <div class="controls">
+    <form name="calculator">
+        First number input: <input id="firstNum" type="number" name="x"><br><br>
+        
+        Second number input: <input id="secondNum" type="number" name="y"><br><br>
+
+        Result: <input type="number" name="res">
+       
+        <input type="button" value="+" name="add" onclick="sumValues(x,y)">
+        <input type="button" value="-" name="subtract" onclick="differenceValues(x,y)">
+        <input type="button" value="*" name="multiply" onclick="productValues(x,y)">
+        <input type="button" value="/" name="divide" onclick="quotientValues(x,y)">
+        <input type="button" value="%" name="percent" onclick="percentValues(x,y)">
+    </form>
+    </div>
+</div>
+<script src="challenge5.js"></script> 
+</body>
+</html>
+
+<!-- <form name="myForm">
+        Put number here <br>
+        <input id="in1" type= number name= x> <br>
+        Put number here<br>
+        <input id="in2" type= number name= y> <br>
+        <button  onclick="myfunction(x,y)">+</button>
+        <button  onclick="myfunction1(x,y)">-</button>
+        <button  onclick="myfunction2(x,y)">*</button>
+        <button onclick="myfunction3(x,y)">÷</button>
+        <button onclick="myfunction4(x,y)">%</button> <br>
+        Result<br>
+        
+    </form>
+    <p></p> -->
+     
